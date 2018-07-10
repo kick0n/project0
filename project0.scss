@@ -3,3 +3,18 @@ $background-color : orange;
 body {
     background-color: $background-color;
 }
+
+.jumbotron {
+    p {
+        text-align: right;
+    }
+}
+
+
+@media (max-width: 768px) {
+ .jumbotron {
+    p {
+        text-align: center;
+    }
+}
+}

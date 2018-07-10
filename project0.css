@@ -1,4 +1,11 @@
 body {
   background-color: orange; }
 
+.jumbotron p {
+  text-align: right; }
+
+@media (max-width: 768px) {
+  .jumbotron p {
+    text-align: center; } }
+
 /*# sourceMappingURL=project0.css.map */
