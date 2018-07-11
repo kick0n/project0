@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 $background-color : orange;
 
 body {
@@ -18,3 +19,43 @@ body {
     }
 }
 }
+
+td img{
+    display: block;
+    margin: auto;
+    max-height: 216px;
+    max-width: 287px;
+
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 420;
+    line-height: 1.4;
+}
+
+.section-title {
+   @extend .lead;
+   text-align: center;
+
+
+
+}
+
+#embossed-text {
+    @extend .section-title;
+	margin: 50px auto;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+	opacity: 0.4;
+	font: 700 80px 'Bitter';
+}
+
+#letterpress-text {
+    @extend #embossed-text;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+}
+
+

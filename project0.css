@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 body {
   background-color: orange; }
 
@@ -7,5 +8,30 @@ body {
 @media (max-width: 768px) {
   .jumbotron p {
     text-align: center; } }
+td img {
+  display: block;
+  margin: auto;
+  max-height: 216px;
+  max-width: 287px; }
+
+.lead, .section-title, #embossed-text, #letterpress-text {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 420;
+  line-height: 1.4; }
+
+.section-title, #embossed-text, #letterpress-text {
+  text-align: center; }
+
+#embossed-text, #letterpress-text {
+  margin: 50px auto;
+  text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.8);
+  color: #333;
+  opacity: 0.4;
+  font: 700 80px 'Bitter'; }
+
+#letterpress-text {
+  color: #222;
+  text-shadow: 0px 2px 3px #555; }
 
 /*# sourceMappingURL=project0.css.map */
